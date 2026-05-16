@@ -1,0 +1,29 @@
+Overall style:
+white background, clean acrylic panel, pastel colors, modern Korean student portfolio, soft 3D acrylic, minimal, high quality
+
+Rules:
+- Do not include external logos or real brand logos.
+- Do not include text inside the image.
+- Banner images should feel like abstract illustrations.
+- Icon images should feel like simple acrylic objects.
+
+1. banner-intochn.png
+Pastel acrylic illustration of a location-based local tourism service, map pin, route line, soft glass panels, clean white background, modern minimal 3D acrylic style, no text, high quality
+
+2. banner-nextwave.png
+Pastel acrylic illustration of an IT student club, collaboration, laptop, wave-shaped acrylic object, clean white background, modern minimal 3D acrylic style, no text, high quality
+
+3. banner-awards.png
+Pastel acrylic illustration of an award trophy and certificate, soft glass material, clean white background, modern minimal 3D acrylic style, no text, high quality
+
+4. icon-smartfarm.png
+Simple pastel acrylic icon of smart farm, leaf, sensor, small data signal, clean white background, no text
+
+5. icon-location.png
+Simple pastel acrylic icon of location based tourism, map pin and route, clean white background, no text
+
+6. icon-writing.png
+Simple pastel acrylic icon of technical writing, document and pen, clean white background, no text
+
+7. icon-data.png
+Simple pastel acrylic icon of data usage, bar chart and small database shape, clean white background, no text

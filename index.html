@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="박성현의 포트폴리오">
+  <title>박성현 | Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="home-page">
+  <header class="floating-navbar" data-navbar>
+    <a class="nav-title" href="./index.html">박성현의 포트폴리오</a>
+    <nav class="nav-links" aria-label="주요 메뉴">
+      <a href="./index.html#profile">PROFILE</a>
+      <div class="nav-dropdown">
+        <a href="./career.html" class="nav-link">CAREER</a>
+        <div class="nav-dropdown-menu">
+          <a href="./career.html#journey">Journey</a>
+          <a href="./career.html#awards">Awards</a>
+        </div>
+      </div>
+      <a href="./project.html">PROJECT</a>
+      <a href="./index.html#interests">INTERESTS</a>
+      <a href="./index.html#contact">CONTACT</a>
+    </nav>
+    <button class="mobile-menu-button" type="button" aria-label="메뉴 열기">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="mobile-menu-overlay"></div>
+    <aside class="mobile-side-menu" aria-label="모바일 메뉴">
+      <button class="mobile-menu-close" type="button" aria-label="메뉴 닫기">×</button>
+      <a href="./index.html#profile">PROFILE</a>
+      <button class="mobile-career-toggle" type="button">CAREER</button>
+      <div class="mobile-submenu">
+        <div class="mobile-submenu-inner">
+          <a href="./career.html#journey">Journey</a>
+          <a href="./career.html#awards">Awards</a>
+        </div>
+      </div>
+      <a href="./project.html">PROJECT</a>
+      <a href="./index.html#interests">INTERESTS</a>
+      <a href="./index.html#contact">CONTACT</a>
+    </aside>
+  </header>
+
+  <div class="banner-background-layer" aria-label="대표 배너">
+    <div class="banner-carousel" data-carousel>
+      <div class="banner-viewport">
+        <div class="banner-track" data-carousel-track>
+          <article class="banner-slide image-only-slide intochn-slide is-active" data-slide>
+            <img class="banner-slide-image" src="./assets/banner-intochn.png" alt="지역관광 서비스 인투충남 배너 이미지" loading="lazy">
+            <span class="placeholder-label">Image</span>
+          </article>
+
+          <div class="banner-slide image-only-slide nextwave-slide" data-slide data-link="http://wenw.ceo/" role="link" tabindex="0">
+            <img class="banner-slide-image" src="./assets/banner-nextwave.png" alt="NEXTWAVE 배너 이미지" loading="lazy">
+            <span class="placeholder-label">Image</span>
+            <a class="nextwave-banner-button" href="http://wenw.ceo/" target="_blank" rel="noopener noreferrer">사이트 바로가기</a>
+          </div>
+
+          <div class="banner-slide awards-slide" data-slide>
+            <img class="banner-slide-image" src="./assets/banner-awards.png" alt="수상 경력 배너 이미지" loading="lazy">
+            <span class="placeholder-label">Image</span>
+            <a class="award-banner-button" href="./career.html#awards">수상 내역 보기</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-arrow prev" type="button" data-carousel-prev aria-label="이전 배너"></button>
+      <button class="carousel-arrow next" type="button" data-carousel-next aria-label="다음 배너"></button>
+      <div class="carousel-dots" data-carousel-dots aria-label="배너 선택"></div>
+    </div>
+  </div>
+
+  <main class="content-foreground-layer">
+    <div class="site-shell">
+      <section class="section profile-section reveal-section" id="profile" aria-labelledby="profileTitle">
+        <h1 class="profile-motto">기술과 창의의 무한한 가능성</h1>
+        <div class="profile-layout">
+          <div class="profile-photo media-slot portrait-slot" aria-label="프로필 사진">
+            <img class="image-asset" src="./assets/profile.png" alt="박성현 프로필 사진" loading="lazy">
+            <span class="placeholder-label">Profile</span>
+          </div>
+          <div class="profile-info profile-text">
+            <h2 id="profileTitle" class="name">박성현</h2>
+            <p>순천향대학교 사물인터넷학과</p>
+            <p>20231297</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section reveal-section" id="about" aria-label="About Me">
+        <article class="acrylic-panel about-card tone-mint reveal-card">
+          <p>
+            순천향대학교 사물인터넷학과에서 IoT, 소프트웨어, 데이터 활용 분야를 배우고 있습니다.
+            전공 수업과 창업 관련 활동을 통해 기술을 서비스 아이디어로 연결하는 역량을 키워가고 있습니다.
+            아직 성장 중인 학생으로서, 문제를 발견하고 직접 시도하며 나만의 방향을 만들어가고 있습니다.
+          </p>
+          <a class="career-pill-button" href="./career.html">내 커리어 보기</a>
+        </article>
+      </section>
+
+      <section class="section journey-section reveal-section" id="journey" aria-labelledby="journeyTitle">
+        <div class="section-heading">
+          <h2 id="journeyTitle">Journey</h2>
+        </div>
+        <div class="journey-list" data-journey-list>
+          <button class="reveal-wrapper journey-card hover-card clickable-card reveal-card" type="button" data-journey-card aria-expanded="false">
+            <span class="journey-card-surface hover-card-surface acrylic-panel tone-blue">
+              <span class="journey-summary"><time>2004년 3월</time><strong>서울아산병원 출생</strong></span>
+              <span class="journey-story"><span>서울아산병원에서 태어나 성장의 첫 시작을 맞이했습니다. 이 시기는 지금의 저를 이루는 출발점이며, 이후 다양한 경험을 쌓아가는 기반이 되었습니다.</span></span>
+            </span>
+          </button>
+          <button class="reveal-wrapper journey-card hover-card clickable-card reveal-card" type="button" data-journey-card aria-expanded="false">
+            <span class="journey-card-surface hover-card-surface acrylic-panel tone-mint">
+              <span class="journey-summary"><time>2011년 2월</time><strong>열방교회 부설 예꿈어린이집 졸업</strong></span>
+              <span class="journey-story"><span>어린이집 시절에는 새로운 환경에서 친구들과 어울리고 기본적인 생활 습관을 익히며 사회성을 배웠습니다. 작은 경험들이 모여 이후 학교생활에 적응하는 데 도움이 되었습니다.</span></span>
+            </span>
+          </button>
+          <button class="reveal-wrapper journey-card hover-card clickable-card reveal-card" type="button" data-journey-card aria-expanded="false">
+            <span class="journey-card-surface hover-card-surface acrylic-panel tone-green">
+              <span class="journey-summary"><time>2017년 2월</time><strong>동백초등학교 졸업</strong></span>
+              <span class="journey-story"><span>초등학교 시절 컴퓨터 방과후 수업에서 스크래치를 접하며 프로그래밍에 처음 관심을 가지게 되었습니다. 블록을 조립하듯 명령을 만들고 결과가 화면에 나타나는 경험은 기술이 생각을 현실로 바꿀 수 있다는 흥미로 이어졌습니다.</span></span>
+            </span>
+          </button>
+          <button class="reveal-wrapper journey-card hover-card clickable-card reveal-card" type="button" data-journey-card aria-expanded="false">
+            <span class="journey-card-surface hover-card-surface acrylic-panel tone-lavender">
+              <span class="journey-summary"><time>2020년 2월</time><strong>용인백현중학교 졸업</strong></span>
+              <span class="journey-story"><span>중학교 시절에는 관심사가 조금씩 넓어지며 내가 좋아하는 분야와 잘 맞는 활동이 무엇인지 탐색했습니다. 기술과 콘텐츠, 문제 해결에 대한 호기심이 자연스럽게 커지기 시작했습니다.</span></span>
+            </span>
+          </button>
+          <button class="reveal-wrapper journey-card hover-card clickable-card reveal-card" type="button" data-journey-card aria-expanded="false">
+            <span class="journey-card-surface hover-card-surface acrylic-panel tone-peach">
+              <span class="journey-summary"><time>2023년 2월</time><strong>용인성지고등학교 졸업</strong></span>
+              <span class="journey-story"><span>고등학생 시절 IT 업계에 본격적으로 관심을 가지게 되었습니다. 기술이 다양한 산업과 사람들의 생활을 바꿀 수 있다는 점에 매력을 느꼈고, 이 관심이 전공 선택으로 이어졌습니다.</span></span>
+            </span>
+          </button>
+          <button class="reveal-wrapper journey-card hover-card clickable-card reveal-card" type="button" data-journey-card aria-expanded="false">
+            <span class="journey-card-surface hover-card-surface acrylic-panel tone-sky">
+              <span class="journey-summary"><time>2023년 3월 ~ 현재</time><strong>순천향대학교 사물인터넷학과 재학 중</strong></span>
+              <span class="journey-story"><span>순천향대학교 사물인터넷학과에서 IoT, 소프트웨어, 데이터 활용 분야를 배우고 있습니다. 전공 공부와 창업 활동을 통해 기술 자체뿐 아니라 아이디어를 서비스로 구체화하는 과정에도 관심을 가지게 되었습니다. 현재는 인투충남 개발, NEXTWAVE 활동 등을 통해 기획과 개발, 협업 경험을 쌓아가고 있습니다.</span></span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section interests-section reveal-section" id="interests" aria-labelledby="interestsTitle">
+        <div class="section-heading">
+          <h2 id="interestsTitle">Interests</h2>
+        </div>
+        <div class="interest-grid">
+          <article class="reveal-wrapper interest-card hover-card reveal-card" tabindex="0">
+            <div class="interest-card-inner hover-card-surface acrylic-panel tone-green">
+              <div class="interest-icon-wrap">
+                <img src="./assets/icon-smartfarm.png" alt="스마트 팜 아이콘" class="interest-icon" loading="lazy">
+              </div>
+              <h3>스마트 팜</h3>
+              <p>센서와 데이터를 활용해 농업 환경을 더 똑똑하게 관리하는 분야</p>
+            </div>
+          </article>
+          <article class="reveal-wrapper interest-card hover-card reveal-card" tabindex="0">
+            <div class="interest-card-inner hover-card-surface acrylic-panel tone-blue">
+              <div class="interest-icon-wrap">
+                <img src="./assets/icon-location.png" alt="위치 기반 관광 서비스 아이콘" class="interest-icon" loading="lazy">
+              </div>
+              <h3>위치 기반 관광 서비스</h3>
+              <p>사용자 위치와 지역 정보를 연결해 탐색 경험을 개선하는 서비스</p>
+            </div>
+          </article>
+          <article class="reveal-wrapper interest-card hover-card reveal-card" tabindex="0">
+            <div class="interest-card-inner hover-card-surface acrylic-panel tone-lavender">
+              <div class="interest-icon-wrap">
+                <img src="./assets/icon-writing.png" alt="테크니컬 라이팅 아이콘" class="interest-icon" loading="lazy">
+              </div>
+              <h3>테크니컬 라이팅</h3>
+              <p>기술과 서비스의 흐름을 명확한 문서와 설명으로 정리하는 작업</p>
+            </div>
+          </article>
+          <article class="reveal-wrapper interest-card hover-card reveal-card" tabindex="0">
+            <div class="interest-card-inner hover-card-surface acrylic-panel tone-peach">
+              <div class="interest-icon-wrap">
+                <img src="./assets/icon-data.png" alt="데이터 활용 아이콘" class="interest-icon" loading="lazy">
+              </div>
+              <h3>데이터 활용</h3>
+              <p>데이터를 읽고 정리해 문제 해결과 서비스 개선에 연결하는 분야</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section reveal-section" id="contact" aria-labelledby="contactTitle">
+        <div class="section-heading">
+          <h2 id="contactTitle">Contact Me</h2>
+        </div>
+        <address class="contact-card">
+          <a class="reveal-wrapper contact-tile hover-card clickable-card reveal-card" href="mailto:sh2004p2@sch.ac.kr">
+            <div class="contact-tile-inner hover-card-surface acrylic-panel tone-blue">
+              <div class="contact-icon-wrap">
+                <img src="./assets/icon-email.png" alt="Email 아이콘" class="contact-icon" loading="lazy">
+              </div>
+              <div class="contact-text">
+                <strong>EMAIL</strong>
+                <span>sh2004p2@sch.ac.kr</span>
+              </div>
+            </div>
+          </a>
+          <a class="reveal-wrapper contact-tile hover-card clickable-card reveal-card" href="https://github.com/sh2004ps" target="_blank" rel="noopener noreferrer">
+            <div class="contact-tile-inner hover-card-surface acrylic-panel tone-mint">
+              <div class="contact-icon-wrap">
+                <img src="./assets/icon-github.png" alt="GitHub 아이콘" class="contact-icon" loading="lazy">
+              </div>
+              <div class="contact-text">
+                <strong>GITHUB</strong>
+                <span>github.com/sh2004ps</span>
+              </div>
+            </div>
+          </a>
+          <a class="reveal-wrapper contact-tile hover-card clickable-card reveal-card" href="https://www.instagram.com/sh2004ps" target="_blank" rel="noopener noreferrer">
+            <div class="contact-tile-inner hover-card-surface acrylic-panel tone-lavender">
+              <div class="contact-icon-wrap">
+                <img src="./assets/icon-insta.png" alt="Instagram 아이콘" class="contact-icon" loading="lazy">
+              </div>
+              <div class="contact-text">
+                <strong>INSTAGRAM</strong>
+                <span>@sh2004ps</span>
+              </div>
+            </div>
+          </a>
+        </address>
+      </section>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
